@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\D\\Unreal Projects\\git 2d top down\\TopDown2d\\TopDown2dUe4\\Source\\TopDown2dUe4\\TopDown2dUe4.Build.cs",
+		"E:\\D\\Unreal Projects\\git 2d top down\\TopDown2d\\TopDown2dUe4\\Source\\TopDown2dUe4.Target.cs",
+		"E:\\D\\Unreal Projects\\git 2d top down\\TopDown2d\\TopDown2dUe4\\Source\\TopDown2dUe4Editor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

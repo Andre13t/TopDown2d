@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TopDown2dUe4.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{BBD76495-DDCE-48AA-A2A5-CCA53343C698}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TopDown2dUe4.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TopDown2dUe4Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{264EDA82-0EAA-48F3-989B-C6DCC6873CAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TopDown2dUe4">
+      <UniqueIdentifier>{5E809274-2962-4CBC-A134-D0E774431FF9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TopDown2dUe4\TopDown2dUe4.Build.cs">
+      <Filter>Source\TopDown2dUe4</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TopDown2dUe4\TopDown2dUe4.cpp">
+      <Filter>Source\TopDown2dUe4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDown2dUe4\TopDown2dUe4.h">
+      <Filter>Source\TopDown2dUe4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDown2dUe4\TopDown2dUe4GameModeBase.cpp">
+      <Filter>Source\TopDown2dUe4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDown2dUe4\TopDown2dUe4GameModeBase.h">
+      <Filter>Source\TopDown2dUe4</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
