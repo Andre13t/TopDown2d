@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "TopDown2dUe4",
-			"Path": "E:\\D\\Unreal Projects\\git 2d top down\\TopDown2d\\TopDown2dUe4\\Source\\TopDown2dUe4.Target.cs",
+			"Path": "E:\\D\\Unreal Projects\\Git 2d top down\\TopDown2d\\TopDown2dUe4\\Source\\TopDown2dUe4.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "TopDown2dUe4Editor",
-			"Path": "E:\\D\\Unreal Projects\\git 2d top down\\TopDown2d\\TopDown2dUe4\\Source\\TopDown2dUe4Editor.Target.cs",
+			"Path": "E:\\D\\Unreal Projects\\Git 2d top down\\TopDown2d\\TopDown2dUe4\\Source\\TopDown2dUe4Editor.Target.cs",
 			"Type": "Editor"
 		}
 	]
