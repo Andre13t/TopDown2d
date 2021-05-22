@@ -17,11 +17,17 @@ struct FVector;
 #define TopDown2dUe4_Source_TopDown2dUe4_LimitOfFieldComponent_h_13_SPARSE_DATA
 #define TopDown2dUe4_Source_TopDown2dUe4_LimitOfFieldComponent_h_13_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execsetTopLeftF); \
+	DECLARE_FUNCTION(execsetTopLeftT); \
+	DECLARE_FUNCTION(execsetCameras); \
 	DECLARE_FUNCTION(execSetupBoxToChangeCamera);
 
 
 #define TopDown2dUe4_Source_TopDown2dUe4_LimitOfFieldComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execsetTopLeftF); \
+	DECLARE_FUNCTION(execsetTopLeftT); \
+	DECLARE_FUNCTION(execsetCameras); \
 	DECLARE_FUNCTION(execSetupBoxToChangeCamera);
 
 

@@ -42,7 +42,7 @@ void ULimitOfFieldComponent::SetupBoxToChangeCamera(int32 widthMAP, int32 height
 	newPoss1.Z =  - BoxExtent.Z + 8;
 	newPoss1.Y = 0;
 	
-	newPoss2.X = sizeTotalPixelWidh - BoxExtent.X - 8;//298 -42
+	newPoss2.X = sizeTotalPixelWidh - BoxExtent.X - 8;
 	newPoss2.Z = -BoxExtent.Z + 8;
 	newPoss2.Y = 0;
 		
@@ -53,5 +53,26 @@ void ULimitOfFieldComponent::SetupBoxToChangeCamera(int32 widthMAP, int32 height
 	newPoss4.X = sizeTotalPixelWidh - BoxExtent.X - 8;
 	newPoss4.Z = -sizeTotalPixelHeight + BoxExtent.Z + 8;
 	newPoss4.Y = 0;
+}
+
+UFUNCTION(BlueprintCallable) void ULimitOfFieldComponent::setCameras(bool tL, bool tR, bool bL, bool bR)
+{
+	if (tL)
+	{
+		setTopLeftT();
+	}
+	else
+	{
+		setTopLeftF();
+	}
+}
+
+UFUNCTION(BlueprintCallable) bool ULimitOfFieldComponent::setTopLeftT()
+{
+	return true;
+}
+UFUNCTION(BlueprintCallable) bool ULimitOfFieldComponent::setTopLeftF()
+{
+	return false;
 }
 

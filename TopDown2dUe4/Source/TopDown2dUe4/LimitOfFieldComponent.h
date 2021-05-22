@@ -15,10 +15,16 @@ class TOPDOWN2DUE4_API ULimitOfFieldComponent : public UActorComponent
 public:
 	// Sets default values for this component's properties
 	ULimitOfFieldComponent();
+
 	UPROPERTY(BlueprintReadWrite) FVector newPoss1{};
 	UPROPERTY(BlueprintReadWrite) FVector newPoss2{};
 	UPROPERTY(BlueprintReadWrite) FVector newPoss3{};
 	UPROPERTY(BlueprintReadWrite) FVector newPoss4{};
+	
+	UPROPERTY(BlueprintReadWrite) bool TopLeft{};
+	UPROPERTY(BlueprintReadWrite) bool TopRight{};	
+	UPROPERTY(BlueprintReadWrite) bool BottomLeft{};
+	UPROPERTY(BlueprintReadWrite) bool BottomRight{};
 
 protected:
 	// Called when the game starts
@@ -28,5 +34,7 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	UFUNCTION(BlueprintCallable)void SetupBoxToChangeCamera(int32 widthMAP, int32 heightMAP, FVector BoxExtent);
-		
+	UFUNCTION(BlueprintCallable)void setCameras(bool tL, bool tR, bool bL, bool bR);
+	UFUNCTION(BlueprintCallable) bool setTopLeftT();
+	UFUNCTION(BlueprintCallable) bool setTopLeftF();
 };

@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeTopDown2dUe4_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x5B15F829,
+				0x79375A43,
 				0xD601E676,
 				METADATA_PARAMS(nullptr, 0)
 			};
