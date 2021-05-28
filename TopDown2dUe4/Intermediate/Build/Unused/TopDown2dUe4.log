@@ -1,17 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\D\Unreal Projects\Git 2d top down\TopDown2d).
-  Parsing headers for TopDown2dUe4Editor
-    Running UnrealHeaderTool "E:\D\Unreal Projects\Git 2d top down\TopDown2d\TopDown2dUe4\TopDown2dUe4.uproject" "E:\D\Unreal Projects\Git 2d top down\TopDown2d\TopDown2dUe4\Intermediate\Build\Win64\TopDown2dUe4Editor\Development\TopDown2dUe4Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Dtrez\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for TopDown2dUe4Editor in 15,7409036 seconds
   Building TopDown2dUe4Editor...
   Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 4 processes...
-    [1/6] LimitOfFieldComponent.cpp
-    [2/6] TopDown2dUe4.init.gen.cpp
-    [3/6] LimitOfFieldComponent.gen.cpp
-    [4/6] UE4Editor-TopDown2dUe4-0005.lib
-       Creating library E:\D\Unreal Projects\Git 2d top down\TopDown2d\TopDown2dUe4\Intermediate\Build\Win64\UE4Editor\Development\TopDown2dUe4\UE4Editor-TopDown2dUe4-0005.lib and object E:\D\Unreal Projects\Git 2d top down\TopDown2d\TopDown2dUe4\Intermediate\Build\Win64\UE4Editor\Development\TopDown2dUe4\UE4Editor-TopDown2dUe4-0005.exp
-    [5/6] UE4Editor-TopDown2dUe4-0005.dll
-       Creating library E:\D\Unreal Projects\Git 2d top down\TopDown2d\TopDown2dUe4\Intermediate\Build\Win64\UE4Editor\Development\TopDown2dUe4\UE4Editor-TopDown2dUe4-0005.suppressed.lib and object E:\D\Unreal Projects\Git 2d top down\TopDown2d\TopDown2dUe4\Intermediate\Build\Win64\UE4Editor\Development\TopDown2dUe4\UE4Editor-TopDown2dUe4-0005.suppressed.exp
-    [6/6] TopDown2dUe4Editor.target
-  Total time in Parallel executor: 322,70 seconds
-  Total execution time: 340,47 seconds
+  Building 4 actions with 4 processes...
+    [1/4] LimitOfFieldComponent.cpp
+    [2/4] UE4Editor-TopDown2dUe4-0028.lib
+       Creating library E:\D\Unreal Projects\Git 2d top down\TopDown2d\TopDown2dUe4\Intermediate\Build\Win64\UE4Editor\Development\TopDown2dUe4\UE4Editor-TopDown2dUe4-0028.lib and object E:\D\Unreal Projects\Git 2d top down\TopDown2d\TopDown2dUe4\Intermediate\Build\Win64\UE4Editor\Development\TopDown2dUe4\UE4Editor-TopDown2dUe4-0028.exp
+    [3/4] UE4Editor-TopDown2dUe4-0028.dll
+       Creating library E:\D\Unreal Projects\Git 2d top down\TopDown2d\TopDown2dUe4\Intermediate\Build\Win64\UE4Editor\Development\TopDown2dUe4\UE4Editor-TopDown2dUe4-0028.suppressed.lib and object E:\D\Unreal Projects\Git 2d top down\TopDown2d\TopDown2dUe4\Intermediate\Build\Win64\UE4Editor\Development\TopDown2dUe4\UE4Editor-TopDown2dUe4-0028.suppressed.exp
+    [4/4] TopDown2dUe4Editor.target
+  Total time in Parallel executor: 80,81 seconds
+  Total execution time: 86,56 seconds

@@ -38,20 +38,20 @@ void ULimitOfFieldComponent::SetupBoxToChangeCamera(int32 widthMAP, int32 height
 	int32 sizeTotalPixelWidh = widthMAP * 16;
 	int32 sizeTotalPixelHeight = heightMAP * 16;
 	
-	newPoss1.X = BoxExtent.X - 8;
-	newPoss1.Z =  - BoxExtent.Z + 8;
+	newPoss1.X -= - 8;
+	newPoss1.Z +=  + 8;
 	newPoss1.Y = 0;
 	
-	newPoss2.X = sizeTotalPixelWidh - BoxExtent.X - 8;
-	newPoss2.Z = -BoxExtent.Z + 8;
+	newPoss2.X = sizeTotalPixelWidh  - 8;
+	newPoss2.Z +=  8;
 	newPoss2.Y = 0;
 		
-	newPoss3.X = BoxExtent.X - 8;
-	newPoss3.Z = -sizeTotalPixelHeight + BoxExtent.Z + 8;
+	newPoss3.X -= 8;
+	newPoss3.Z +=  + 8;
 	newPoss3.Y = 0;
 
-	newPoss4.X = sizeTotalPixelWidh - BoxExtent.X - 8;
-	newPoss4.Z = -sizeTotalPixelHeight + BoxExtent.Z + 8;
+	newPoss4.X = sizeTotalPixelWidh - 8;
+	newPoss4.Z = -sizeTotalPixelHeight + 8;
 	newPoss4.Y = 0;
 }
 
